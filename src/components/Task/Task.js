@@ -24,7 +24,7 @@ export const Task = ({ task }) => {
         onChange={handleToggle}
       />
       <p className={css.text}>{task.text}</p>
-      <button className={css.btn} type="button" onClick={handleDelete}>
+      <button className={css.btn} onClick={handleDelete}>
         <MdClose size={24} />
       </button>
     </div>
